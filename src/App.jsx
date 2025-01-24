@@ -4,10 +4,8 @@ import TaskForm from "./TaskForm.jsx"
 import TaskList from './TaskList.jsx'
 import './styles.css';
 
-
 export default function App() {
   
-
   return (                                    // Task 1 - React Elements
       <TaskProvider>
           <div className="task-manager">
@@ -15,9 +13,7 @@ export default function App() {
           </div>
           <TaskForm />
           <TaskList />
-
       </TaskProvider>
-    
   )
 }
 

@@ -1,12 +1,10 @@
 // Represents individual task items
-
 import React, { useContext } from "react";
 import { TaskContext } from "./TaskContext.jsx";
 
 export default function TaskItem({task}) {                      // Task 5,6 - Components,props
 
     const {deletetask} = useContext(TaskContext)            // Accesses delete Task
-
 
     return(                                                                // Task 4 - Fragments
         <>                                      
